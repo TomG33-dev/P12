@@ -1,10 +1,11 @@
+import Profile from "../../components/Profile/Profile"
 
-
+import "./home.scss"
 
 function Home() {
   return (
-    <div>
-      <h1>Home</h1>
+    <div className="home">
+      <Profile />
     </div>
   );
 }

@@ -1,12 +1,18 @@
+body {
+    margin: 0;
+}
+
 .footer {
+    width: 100%;
     background-color: black;
-    height: 209px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 50px;
-    position: sticky;
+    position: fixed;
+    bottom: 0;
 
     p {
         color: white;
