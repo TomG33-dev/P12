@@ -1,4 +1,5 @@
 import Header from "./Header/Header"
+import Banner from "../components/Banner/Banner"
 import Footer from "./Footer/Footer"
 
 import Home from "../pages/Home/Home"
@@ -11,8 +12,9 @@ function App() {
 
   return (
     <BrowserRouter>
+      <Header />
+      <Banner />
       <div className="container">
-        <Header />
         <Routes>
           <Route path ="/" element={<Home />} />
           <Route path ="*" element={<Error />} />

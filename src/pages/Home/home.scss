@@ -3,4 +3,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    .divider {
+        height: 2px; // Épaisseur de la barre
+        width: 100%; // Largeur de la barre
+        background-color: black; // Couleur de la barre
+        margin: 25px;
+    }
 }

@@ -1,0 +1,33 @@
+.projets {
+    text-align: center;
+    width: 75%;
+
+    h1 {
+        margin-bottom: 50px;
+    }
+
+    .project {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 20px;
+
+        .project-text {
+            flex: 1;
+            margin-right: 10px;
+        }
+
+        img {
+            flex: 1;
+            max-width: 35%;
+            height: auto;
+            border: 2px solid black;
+            border-radius: 25px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+    }
+
+    .reverse {
+        flex-direction: row-reverse;
+    }
+}
