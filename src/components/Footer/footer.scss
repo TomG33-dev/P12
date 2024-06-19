@@ -1,0 +1,21 @@
+.footer {
+    background-color: black;
+    height: 209px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    position: sticky;
+
+    p {
+        color: white;
+        font-size: 24px;
+        text-align: center;
+        white-space: pre-wrap;
+
+        @media (max-width: 768px) {
+            white-space: normal;
+        }
+    }
+}

@@ -1,4 +1,3 @@
-
 import "./error.scss"
 import {Link} from "react-router-dom"
 
