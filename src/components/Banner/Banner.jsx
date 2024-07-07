@@ -1,6 +1,15 @@
 import "./banner.scss"
+import React from 'react'
 
 function Banner() {
+    const scrollToContact = (e) => {
+        e.preventDefault();
+        const contactSection = document.querySelector('#contact');
+        if (contactSection) {
+            contactSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     return (
         <div className="banner">
             <h1>TOM GERARD</h1>
@@ -11,9 +20,11 @@ function Banner() {
                         <i className="devicon-github-original"></i>
                     </button>
                 </a>
-                <button>
-                    <i className="fa-solid fa-envelope"></i>
-                </button>
+                <a href="#contact" onClick={scrollToContact}>
+                    <button>
+                        <i className="fa-solid fa-envelope"></i>
+                    </button>
+                </a>
             </div>
         </div>
     )
