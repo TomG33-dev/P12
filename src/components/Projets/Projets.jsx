@@ -9,7 +9,7 @@ function Projets() {
             <div className="project">
                 <div className="project-text">
                     <h2>SOPHIE BLUEL</h2>
-                    <p>Description de Sophie Bluel</p>
+                    <p>Créez une page web dynamique avec JavaScript</p>
                     <button>En savoir plus</button>
                 </div>
                 <img src={SophieBluel} alt="Image du site de Sophie Bluel" />

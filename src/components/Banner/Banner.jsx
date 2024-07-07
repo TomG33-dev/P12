@@ -6,11 +6,13 @@ function Banner() {
             <h1>TOM GERARD</h1>
             <p>Développeur Web Front-End</p>
             <div className="button-container">
+                <a href="https://github.com/TomG33-dev" target="_blank" rel="noopener noreferrer">
+                    <button>
+                        <i className="devicon-github-original"></i>
+                    </button>
+                </a>
                 <button>
-                    <i class="devicon-github-original"></i>
-                </button>
-                <button>
-                    <i class="fa-solid fa-envelope"></i>
+                    <i className="fa-solid fa-envelope"></i>
                 </button>
             </div>
         </div>
