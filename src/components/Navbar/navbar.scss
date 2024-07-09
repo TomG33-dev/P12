@@ -24,4 +24,9 @@ nav {
         }
       }
     }
-  }
+
+    // Media query pour les écrans de moins de 768px de large
+    @media (max-width: 768px) {
+      display: none;
+    }
+}

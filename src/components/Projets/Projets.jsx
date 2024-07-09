@@ -1,8 +1,8 @@
 import React from 'react';
 import "./projets.scss";
-import sophieBluelImage from '../../assets/sophiebluel.png';
-import ninaCarducciImage from '../../assets/ninacarducci.png';
-import argentBankImage from '../../assets/argentbank.png';
+import sophieBluelImage from '../../assets/sophiebluel.webp';
+import ninaCarducciImage from '../../assets/ninacarducci.webp';
+import argentBankImage from '../../assets/argentbank.webp';
 
 const projetsData = [
     {
