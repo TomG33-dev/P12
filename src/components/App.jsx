@@ -1,4 +1,5 @@
 import Header from "./Header/Header"
+import Navbar from "./Navbar/Navbar"
 import Banner from "../components/Banner/Banner"
 import Footer from "./Footer/Footer"
 
@@ -13,6 +14,7 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
+      <Navbar />
       <Banner />
       <div className="container">
         <Routes>

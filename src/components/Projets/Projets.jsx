@@ -27,7 +27,7 @@ const projetsData = [
 
 function Projets() {
     return (
-        <div className="projets">
+        <div id="projets" className="projets">
             <h1>PROJETS OPENCLASSROOMS</h1>
             {projetsData.map((projet, index) => (
                 <div key={index} className="project">

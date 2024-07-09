@@ -2,7 +2,7 @@ import "./profile.scss"
 
 function Profile() {
     return (
-        <div className="profile">
+        <div id="profile" className="profile">
             <h1>PRÉSENTATION</h1>
             <p>J'ai commencé à m'intéresser au développement web après une reconversion profesionnelle. 
                 Je me suis donc lancé dans une formation OpenClassrooms afin d'en apprendre le plus possible et le plus rapidement.</p>
