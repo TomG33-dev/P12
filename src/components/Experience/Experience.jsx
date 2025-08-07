@@ -11,14 +11,9 @@ function Experience() {
                     <i className="devicon-html5-plain-wordmark colored"></i>
                     <i className="devicon-css3-plain-wordmark colored"></i>
                     <i className="devicon-sass-original colored"></i>
-                </div>
-
-                <div className="experience-container">
-                    <h2>BACK-END</h2>
                     <i className="devicon-mongodb-plain-wordmark colored"></i>
                     <i className="devicon-swagger-plain colored"></i>
                 </div>
-
                 <div className="experience-container">
                     <h2>LANGAGES</h2>
                     <i className="devicon-javascript-plain colored"></i>
